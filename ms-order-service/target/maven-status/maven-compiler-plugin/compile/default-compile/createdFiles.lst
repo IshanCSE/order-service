@@ -1,0 +1,12 @@
+ms\sample\services\orderService\Order.class
+ms\sample\services\orderService\App.class
+ms\sample\services\orderService\commands\OrderCommand.class
+ms\sample\services\orderService\controller\CreateOrderResponse.class
+ms\sample\services\orderService\controller\CreateOrderRequest.class
+ms\sample\services\orderService\controller\OrderController.class
+ms\sample\services\orderService\configuration\OrderWebConfiguration.class
+ms\sample\services\orderService\OrderService.class
+ms\sample\services\orderService\configuration\OrderBackendConfiguration.class
+ms\sample\services\orderService\commands\OrderCreatedCommand.class
+ms\sample\services\orderService\OrderServiceImpl.class
+ms\sample\services\orderService\commands\CreateOrderCommand.class
