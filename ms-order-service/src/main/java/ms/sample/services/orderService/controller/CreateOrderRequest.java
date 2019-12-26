@@ -2,20 +2,20 @@ package ms.sample.services.orderService.controller;
 
 import java.util.List;
 
-import ms.sample.services.orderService.Product;
+import ms.sample.services.orderService.model.OrderItem;
 
 public class CreateOrderRequest {
 	private int orderTotal;
 	private String customerId;
-	private List<Product> products;
+	private List<OrderItem> orderItems;
 
 	public CreateOrderRequest() {
 	}
 
-	public CreateOrderRequest(String customerId, int orderTotal, List<Product> products) {
+	public CreateOrderRequest(String customerId, int orderTotal, List<OrderItem> orderItems) {
 		this.customerId = customerId;
 		this.orderTotal = orderTotal;
-		this.products = products;
+		this.orderItems = orderItems;
 	}
 
 	public int getOrderTotal() {
@@ -26,7 +26,7 @@ public class CreateOrderRequest {
 		return customerId;
 	}
 
-	public List<Product> getProducts() {
-		return products;
+	public List<OrderItem> getOrderItems() {
+		return orderItems;
 	}
 }

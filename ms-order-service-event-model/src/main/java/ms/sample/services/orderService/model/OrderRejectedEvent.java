@@ -7,7 +7,7 @@ public class OrderRejectedEvent implements OrderEvent {
 
   private String customerId;
 
-  private OrderRejectedEvent() {
+  public OrderRejectedEvent() {
   }
 
   public OrderRejectedEvent(String customerId) {
